@@ -81,3 +81,9 @@ to differentiate from; the comparison is against the live field, not our past.
   wrote entry.txt there. No relative "out" directory created.
 - Output: entry.txt, 127 chars + trailing newline, single line, UTF-8.
 - Kit check: see result below (run before reporting ready).
+- Kit check result (24 Nov ~05:24 WIB, commit 823aaa7): 5 passed
+  (competition_open, snapshot, license_osi, entrypoint, repo_created_after_open),
+  1 failed — transcripts_present (expected at builder stage: transcripts are
+  bundled by the submitter from the parent session per BOT.md), 15 skipped,
+  3 at-submission checks pending submit. No other failure. Repo public at
+  https://github.com/febriyan9346/makefun-vacuum-alibi, HEAD 823aaa7.
